@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/******************************** HEADER ********************************/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh;
+}
+
+#menu-hb-mb {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0%;
+}
+
+header nav ul li a {
+    color: rgb(35, 44, 81);
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.boton-nar {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+
+.boton-nar a {
+    color: #FFFFFF;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#boton-header {
+box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);    
+}
+
+/******************************** MAIN ********************************/
+
+/*************************** SECTION UNO ***************************/
+
+#section-uno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+/* NO PUEDO LOGRAR QUE EL TITULO QUEDE EN LINEA CON EL LOGO */
+
+#section-uno img {
+    order: 1;
+    width: 40%;
+}
+
+#section-uno div {
+    width: 40%;
+}
+
+#section-uno h2 {
+    color: rgb(35, 44, 81);
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -0.2rem;
+    line-height: 4rem;
+    width: 40vw;
+}
+
+#section-uno p {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    width: 70%;
+    margin: 15px 0px;
+}
+
+#section-uno button {
+    font-weight: 500;
+    margin: 10px 0px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+/*************************** SECTION DOS IZQ *************************/
+
+#section-dos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#section-dos-izq {
+    align-self: flex-start;
+    width: 30vw;
+}
+
+#section-dos-izq h3, h1 {
+    color: rgb(35, 44, 81);
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    display: inline-block;
+}
+
+#section-dos-izq p {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: 30px;
+    width: 24vw;
+}
+
+/*************************** SECTION DOS DER *************************/
+
+#section-dos-der article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    width: 40vw;
+}
+
+#section-dos-der article span {
+    background-color: rgb(242, 95, 58);
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 25px;
+}
+
+#section-dos-der h4 {
+    color: rgb(35, 44, 81);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+#sec-dos-der-div-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 40vw;
+}
+
+#sec-dos-der-div-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 38.2vw;
+}
+
+/* REVISAR LOS ARTICLES*/
+
+#sec-dos-der-div-dos p {
+    color: #B3B2B7;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    width: 32vw;
+    text-align: justify;
+}
+
+/******************************** SECTION TRES ******************************/
+
+#section-tres {
+    text-align: center;
+}
+
+h5 {
+    color: rgb(35, 44, 81);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+#cards-personas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#cards-personas article {
+    background-color: rgb(249, 249, 249);
+    width: 30vw;
+    height: 25vh;
+    position: relative;
+}
+
+#cards-personas article img {
+    position: absolute;
+    width: 6vw;
+    left: calc(50% - (6vw/2));
+    bottom: calc(25vh - (6vw/2));
+}
+
+.nombre-persona {
+    color: rgb(35, 44, 81);
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 70px;
+}
+
+.comentario-persona {
+    color: rgb(190, 190, 190);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 20px 16px 40px;
+}
+
+#puntos-opiniones-mb {
+    display: none;
+}
+
+#section-tres button {
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    margin-top: 45px;
+    margin-bottom: 180px;
+}
+
+/***************************** SECTION CUATRO ***************************/
+
+#section-cuatro {
+    background-color: rgb(242, 95, 58);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 165px;
+
+}
+
+#section-cuatro h2 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    width: 35vw;
+}
+
+#section-cuatro button {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);;
+    padding: 12px 30px;
+}
+
+#section-cuatro a {
+    color: rgb(242, 95, 58);
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/***************************** FOOTER ***************************/
+
+footer {
+    background-color: rgb(29, 30, 37);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 160px;
+    position: relative;
+}
+
+footer div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redes-sociales {
+    flex-direction: row;
+}
+
+#redes-sociales a {
+    padding: 60px 6px 0px;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* COMO PONER LAS LISTAS LOS NAV AL MISMO NIVEL */
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    margin: 10px;    
+}
+
+footer nav ul li a {
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+footer p {
+    position: absolute;
+    color: rgb(143, 148, 167);
+    font-size: 0.8rem;
+    font-weight: 500;
+    right: 12vw;
+    bottom: 5vh;
+}
+
+footer form {
+    align-self: flex-start;
+}
+
+footer form input {
+    background-color: #FFFFFF;
+    color: rgb(143, 148, 167);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+
+footer button {
+    background-color: rgb(242, 95, 58);
+    border: none;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 12px 20px;
+}
+
+/***************************** MEDIA QUERIES ***************************/
