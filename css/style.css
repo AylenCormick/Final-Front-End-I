@@ -69,15 +69,13 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     height: 60vh;
 }
 
-/* NO PUEDO LOGRAR QUE EL TITULO QUEDE EN LINEA CON EL LOGO */
-
 #section-uno img {
     order: 1;
     width: 40%;
 }
 
 #section-uno div {
-    width: 40%;
+    width: 35%;
 }
 
 #section-uno h2 {
@@ -86,7 +84,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     font-weight: 700;
     letter-spacing: -0.2rem;
     line-height: 4rem;
-    width: 40vw;
+    width: 100%;
 }
 
 #section-uno p {
@@ -109,14 +107,14 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 #section-dos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
 #section-dos-izq {
     align-self: flex-start;
-    width: 30vw;
+    width: 35%;
 }
 
 #section-dos-izq h3, h1 {
@@ -133,10 +131,14 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     font-weight: 500;
     line-height: 1.5rem;
     margin-top: 30px;
-    width: 24vw;
+    width: 70%;
 }
 
 /*************************** SECTION DOS DER *************************/
+
+#section-dos-der {
+    width: 40%;
+}
 
 #section-dos-der article {
     display: flex;
@@ -145,7 +147,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     justify-content: center;
     align-items: flex-start;
     margin-bottom: 30px;
-    width: 40vw;
+    width: 100%;
 }
 
 #section-dos-der article span {
@@ -169,7 +171,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    width: 40vw;
+    width: 100%;
 }
 
 #sec-dos-der-div-dos {
@@ -177,7 +179,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    width: 38.2vw;
+    width: 95%;
 }
 
 /* REVISAR LOS ARTICLES*/
@@ -188,7 +190,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     font-weight: 500;
     line-height: 1.5rem;
     margin-top: 10px;
-    width: 32vw;
+    width: 83%;
     text-align: justify;
 }
 
@@ -319,6 +321,7 @@ footer nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    height: 130px;
 }
 
 /* COMO PONER LAS LISTAS LOS NAV AL MISMO NIVEL */
@@ -328,7 +331,7 @@ footer nav ul {
 }
 
 footer nav ul li {
-    margin: 10px;    
+    margin-bottom: 12px;    
 }
 
 footer nav ul li a {
