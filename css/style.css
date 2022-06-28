@@ -13,6 +13,8 @@ body {
 
 p {
     color: #B3B2B7;
+    font-size: 1rem;
+    font-weight: 500;
 }
 
 /******************************** HEADER ********************************/
@@ -90,7 +92,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     width: 35%;
 }
 
-#section-uno h2 {
+#section-uno h1 {
     color: rgb(35, 44, 81);
     font-size: 3.5rem;
     font-weight: 700;
@@ -100,8 +102,6 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 
 #section-uno p {
-    font-size: 1rem;
-    font-weight: 500;
     line-height: 1.6rem;
     width: 70%;
     margin: 15px 0px;
@@ -137,8 +137,6 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
 }
 
 #section-dos-izq p {
-    font-size: 1rem;
-    font-weight: 500;
     line-height: 1.5rem;
     margin-top: 30px;
     width: 70%;
@@ -192,11 +190,7 @@ box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
     width: 95%;
 }
 
-/* REVISAR LOS ARTICLES*/
-
 #sec-dos-der-div-dos p {
-    font-size: 1rem;
-    font-weight: 500;
     line-height: 1.5rem;
     margin-top: 10px;
     width: 83%;
@@ -225,9 +219,9 @@ h5 {
 
 #cards-personas article {
     background-color: rgb(249, 249, 249);
-    width: 30vw;
-    height: 25vh;
-    margin: 0px 10px;
+    width: 440px;
+    height: 250px;
+    margin: 40px 10px 0px;
     position: relative;
 }
 
@@ -235,21 +229,18 @@ h5 {
     position: absolute;
     width: 100px;
     left: calc(50% - (100px/2));
-    bottom: calc(25vh - (100px/2));
+    bottom: calc(250px - (100px/2));
 }
 
 .nombre-persona {
     color: rgb(35, 44, 81);
-    font-size: 1rem;
     font-weight: 700;
     padding-top: 70px;
 }
 
 .comentario-persona {
     color: rgb(190, 190, 190);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     padding: 20px 16px 40px;
 }
 
@@ -370,7 +361,6 @@ footer p {
     position: absolute;
     color: rgb(143, 148, 167);
     font-size: 0.8rem;
-    font-weight: 500;
     right: 200px;
     bottom: 60px;
 }
@@ -438,7 +428,7 @@ footer button:hover {
         width: 100%;
     }
 
-    #section-uno h2 {
+    #section-uno h1 {
         font-size: 2.5rem;
         line-height: 3.5rem;
         padding: 10px 20px;
