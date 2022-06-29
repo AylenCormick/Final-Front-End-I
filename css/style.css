@@ -470,19 +470,19 @@ footer button:hover {
     }
     
     #section-dos-der h4 {
+        font-size: 0.9rem;
         width: 100%;
         background-color: rgb(255, 239, 234);
-        padding: 10px 10px 10px 60px;
+        padding: 10px 10px 10px 70px;
         margin-left: 20px;
     }
     
     #sec-dos-der-div-dos {
         padding: 0%;
     }
-    
-
 
     #sec-dos-der-div-dos p {
+        font-size: 0.8rem;
         line-height: 1.8rem;
         width: 100%;
         padding: 10px;
