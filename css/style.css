@@ -232,7 +232,7 @@ h5 {
     padding: 20px 16px 40px;
 }
 
-#puntos-opiniones-mb {
+#iconos-opiniones-mb {
     display: none;
 }
 
@@ -381,7 +381,7 @@ footer button:hover {
 
 /***************************** MEDIA QUERIES ***************************/
 
-@media (max-width: 380px) {
+@media (max-width: 375px) {
     
     /* HEADER */
 
@@ -509,12 +509,12 @@ footer button:hover {
         display: none;
     }
     
-    #puntos-opiniones-mb {
+    #iconos-opiniones-mb {
         display: block;
         margin-top: 20px;
     }
 
-    #puntos-opiniones-mb i {
+    #iconos-opiniones-mb i {
         color: rgb(242, 95, 58);
     }
 
